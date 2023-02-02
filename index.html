@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quiz Produto</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+
+<div class="quiz">
+	<div class="questoes">
+		<div class="questao">
+			<div class="enunciado" id="primeira-questao">Você já tem uma presença online? 🤔</div>
+			<div class="alternativa" for="primeira-questao"><span class="letra-alternativa">a)</span> Sim, tenho um site e uma landing page</div>
+			<div class="alternativa correta" for="primeira-questao" alt="Landing Page"><span class="letra-alternativa">b)</span> Sim, tenho um site, mas não tenho uma landing page</div>
+			<div class="alternativa correta" for="primeira-questao" alt="Presença Online"><span class="letra-alternativa">c)</span> Não, ainda não tenho uma presença online</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="segunda-questao">Você tem um processo de vendas, atendimento ao cliente ou tarefa que precisa ser automatizada ou otimizada? 🤔</div>
+			<div class="alternativa correta" for="segunda-questao" alt="Automatização de tarefa"><span class="letra-alternativa">a)</span> Sim</div>
+			<div class="alternativa" for="segunda-questao"><span class="letra-alternativa">b)</span> Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="terceira-questao">Você precisa de uma solução para gerenciar dados da sua empresa? 🤔</div>
+			<div class="alternativa correta" for="terceira-questao" alt="Gerenciamento de dados"><span class="letra-alternativa">a)</span> Sim</div>
+			<div class="alternativa" for="terceira-questao"><span class="letra-alternativa">b)</span> Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="quarta-questao">Você gostaria de implementar alguma funcionalidade nova ao seu site? 🤔</div>
+			<div class="alternativa correta" for="quarta-questao" alt="Funcionalidade nova"><span class="letra-alternativa">a)</span> Sim</div>
+			<div class="alternativa" for="quarta-questao"><span class="letra-alternativa">b)</span> Não</div>
+		</div>
+	</div>
+
+	<div class="resultado hide">
+		<h2>Resultado</h2>
+		<p></p>
+	</div>
+
+	<button id="btnProximaQuestao">Próxima</button>
+	<button id="btnVerResultado" class="hide">Ver resultado</button>
+</div>
+</body>
+</html>
